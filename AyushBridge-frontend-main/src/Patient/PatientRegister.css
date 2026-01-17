@@ -1,0 +1,32 @@
+@import "./PatientLogin.css";
+
+/* Image upload */
+.image-upload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.image-upload label {
+  cursor: pointer;
+}
+
+.image-placeholder {
+  width: 120px;
+  height: 120px;
+  border: 2px dashed #9a9a9a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.image-upload img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3f6fa9;
+}

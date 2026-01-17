@@ -1,0 +1,18 @@
+.logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    opacity: 0.85;
+  }
+  
+  .logout-icon {
+    font-size: 22px;
+  }
+  

@@ -1,0 +1,86 @@
+.doctor-details-container {
+  min-height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-details-form {
+  background: #ffffff;
+  padding: 2.2rem;
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-details-form h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 1.5rem;
+}
+
+.doctor-details-form input,
+.doctor-details-form select,
+.doctor-details-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.doctor-details-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.doctor-details-form button {
+  width: 100%;
+  padding: 12px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.doctor-details-form button:hover {
+  background: #256628;
+}
+.section {
+  margin-bottom: 1.2rem;
+}
+
+.section h4 {
+  margin-bottom: 8px;
+  color: #2e7d32;
+}
+
+.section label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.specialization-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.add-small-btn {
+  background: #e67e22;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.add-small-btn:hover {
+  background: #cf711f;
+}

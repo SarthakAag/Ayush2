@@ -1,0 +1,55 @@
+.login-dropdown {
+    position: relative;
+  }
+  
+  .login-btn {
+    background-color: #f36c21;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .login-btn:hover {
+    border: none;
+  }
+  
+  .login-icon {
+    font-size: 22px;
+  }
+  
+  .chevron-icon {
+    font-size: 18px;
+  }
+  
+  /* DROPDOWN */
+  .dropdown-menu {
+    position: absolute;      /* <-- KEY */
+    top: 100%;               /* below login button */
+    right: 0;
+    margin-top: 6px;
+    background: white;
+    color: #333;
+    border-radius: 16px;
+    width: 260px;
+    /* box-shadow: 0 6px 16px rgba(0,0,0,0.2); */
+    z-index: 9999;           /* above navbar */
+  }
+  
+  .dropdown-menu div {
+    border: 1px solid #f36c21;
+    border-radius: 16px;
+    padding: 14px 16px;
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  
+  .dropdown-menu div:hover {
+    background-color: #2E7D32;
+    color: white;
+  }
+  

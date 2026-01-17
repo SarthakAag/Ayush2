@@ -1,0 +1,118 @@
+/* Page background */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8f0ff, #f8fbff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.register-container form {
+  width: 400px;
+  padding: 35px 32px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+/* Heading */
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.register-container h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #2563eb;
+  margin: 10px auto 22px;
+  border-radius: 2px;
+}
+
+/* Inputs */
+.register-container input {
+  width: 100%;
+  padding: 13px 15px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.register-container input::placeholder {
+  color: #9ca3af;
+}
+
+.register-container input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Button */
+.register-container button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+}
+
+.register-container button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+}
+
+/* Optional helper text */
+.register-container .helper-text {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.register-container .helper-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-container .helper-text a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 420px) {
+  .register-container form {
+    width: 92%;
+    padding: 28px 22px;
+  }
+}

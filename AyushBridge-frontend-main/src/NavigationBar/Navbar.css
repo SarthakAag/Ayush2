@@ -1,0 +1,59 @@
+.navbar {
+    height: 100px;
+    background-color: #f36c21;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+  
+  /* LOGO */
+  .logo img {
+    width: 110px;
+    height: auto;
+    margin: 0 20px;
+  }
+  
+  /* TITLE */
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  /* LOGIN / LOGOUT */
+  .logout-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  /* ========================= */
+  /* 📱 MOBILE RESPONSIVE */
+  /* ========================= */
+  @media (max-width: 768px) {
+    .navbar {
+      height: 80px;
+      padding: 0 16px;
+    }
+  
+    .logo img {
+      width: 80px;
+    }
+  
+    .title {
+      font-size: 22px;
+    }
+  }
+  
+  /* ========================= */
+  /* 📱 VERY SMALL SCREENS */
+  /* ========================= */
+  @media (max-width: 480px) {
+    .title {
+      display: none; /* hide title to avoid crowding */
+    }
+  }
+  

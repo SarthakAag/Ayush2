@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+  
+  .portal-page {
+    min-height: 100vh;
+    background: #f5f6fa;
+  }
+  
+
+  
+  /* Main Layout */
+  .portal-container {
+    display: flex;
+    gap: 50px;
+    padding: 40px 60px;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f36c21;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .profile-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Details Card */
+  .details-card {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    padding: 50px 70px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .details-card h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  
+  /* Detail Rows */
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+  }
+  
+  .detail-row span:first-child {
+    font-weight: 600;
+    color: #444;
+  }
+  
+  /* Diagnosis Section */
+  .diagnosis-section {
+    padding: 20px 60px 40px;
+  }
+  
+  .diagnosis-section h2 {
+    color: #2f3640;
+    margin-bottom: 20px;
+  }
+  
+  .diagnosis-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .diagnosis-card {
+    flex: 1 1 300px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .diagnosis-card p {
+    margin: 6px 0;
+  }
+  
+  .diagnosis-links {
+    margin-top: 10px;
+  }
+  
+  .diagnosis-links a {
+    color: #0077cc;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .portal-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .details-card {
+      width: 100%;
+    }
+  
+    .diagnosis-cards {
+      flex-direction: column;
+    }
+  }
+  
