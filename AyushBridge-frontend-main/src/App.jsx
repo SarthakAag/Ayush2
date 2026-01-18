@@ -9,6 +9,8 @@ import ClinicianLogin from "./Clinician/ClinicianLogin";
 import ClinicianRegister from "./Clinician/ClinicianRegister";
 import DoctorDetails from "./Clinician/DoctorDetails";
 import ClinicianDashboard from "./Clinician/ClinicianDashboard";
+import InsuranceRegister from "./InsuranceCompany/InsuranceRegister";
+import InsuranceDashboard from "./InsuranceCompany/InsuranceDashboard";
 
 import InsuranceLogin from "./InsuranceCompany/InsuranceLogin";
 
@@ -27,6 +29,8 @@ const App = () => {
       <Route path="/clinician/register" element={<ClinicianRegister />} />
       <Route path="/clinician/details" element={<DoctorDetails />} />
       <Route path="/clinician/dashboard" element={<ClinicianDashboard />} />
+      <Route path="/insurance/register" element={<InsuranceRegister />} />
+      <Route path="/insurance/dashboard" element={<InsuranceDashboard />} />
       <Route path="/insurance/login" element={<InsuranceLogin />} />
     </Routes>
   );
